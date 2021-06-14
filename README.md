@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+Closure is accessing the lexical scope of an outer element from an inner element.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +67,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+In name inside the console log because name is declared in the parent function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+The function with the argument 'Dan' is set to dansRoll so every time dansRoll is invoked the name will remain the same but the newRoll will change.
+
 c. What is the lexical scope of `newRoll`? 
 
+The child return function.
 
 ### Task 3 - Stretch Goals
 
